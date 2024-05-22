@@ -30,11 +30,16 @@ public class Villano extends Personaje implements EspadaVillano  {
         return super.atacar(personaje);
     }
 
+
+
+
     @Override
     public String Hamatado(Personaje personaje) {
-        return EspadaVillano.super.Hamatado(personaje);
+        // TODO Auto-generated method stub
+         return "Ha matado con la Espada tizona el villano "+personaje.getNombre();
     }
 
+   
     
 
     

@@ -40,7 +40,7 @@ public class App {
                     if(!comprobarVida(personaje2)){
                         personaje2.setVida(0);
                         System.out.println(personaje2.getNombre()+ " Ha muerto");
-                        if(personaje1 instanceof Heroe){
+                        if(personaje1 instanceof EspadaHeroe){
                             System.out.println(((Heroe) personaje1).Hamatado(personaje1));
                         }
                     }
@@ -56,7 +56,7 @@ public class App {
                     if(!comprobarVida(personaje1)){
                         personaje1.setVida(0);
                         System.out.println(personaje1.getNombre()+ " Ha muerto");
-                        if(personaje2 instanceof Villano){
+                        if(personaje2 instanceof EspadaVillano){
                             System.out.println(((Villano) personaje2).Hamatado(personaje2));
                         }
                     }

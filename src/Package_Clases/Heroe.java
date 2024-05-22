@@ -54,10 +54,15 @@ public class Heroe extends Personaje implements EspadaHeroe {
 
     @Override
     public String Hamatado(Personaje personaje) {
-        // TODO Auto-generated method stub
-        return EspadaHeroe.super.Hamatado(personaje);
+        return "Ha matado con la Espada Excalibur el heroe "+personaje.getNombre();
     }
 
+
+
+
+
+
+    
 
 
     
